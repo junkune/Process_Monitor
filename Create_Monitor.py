@@ -5,10 +5,10 @@ from pip._vendor.distlib._backport.tarfile import grp
 import graph
 
 conn = pymysql.connect(
-    host = '127.0.0.1',
+    host = 'projectys.cui7ojvpzagk.us-east-2.rds.amazonaws.com',
     port = 3306,
     user = 'root',
-    passwd = '20121219Jun.K',
+    passwd = 'mypassword',
     db = 'pr_monitor',
     charset='utf8'
     )
