@@ -5,7 +5,7 @@ import DB_Connection
 
 def data_insert(cpu_percent,memory):
     
-    conn = DB_Connection.Connection_DB()
+    conn = DB_Connection.Connection()
     cursor = conn.cursor()
     
     cpu = cpu_percent

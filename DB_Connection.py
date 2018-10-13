@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 import pymysql
 
-def Connection_DB():
+def Connection():
 
     db_information = []
         
